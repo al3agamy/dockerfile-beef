@@ -1,0 +1,4 @@
+git clone https://github.com/al3agamy/dockerfile-beef.git
+cd dockerfile-beef
+docker build -t phocean/beef .
+docker run --rm -it -p 3000:3000 -v $HOME/.msf4:/root/.msf4:Z -v /tmp/msf:/tmp/data:Z --name=beef phocean/beef
