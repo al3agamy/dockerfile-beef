@@ -103,7 +103,8 @@ beef:
         driver: "sqlite"
 
         # db_file is only used for sqlite
-        db_file: "beef.db"
+        # change db_file to file
+        file: "beef.db"
 
         # db connection information is only used for mysql/postgres
         db_host: "localhost"
